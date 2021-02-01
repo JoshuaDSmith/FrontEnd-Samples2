@@ -11,7 +11,7 @@
   --BorderBottomColor: rgb(153, 153, 153);
 }
 
-.HoverColorChange:hover {
+.HoverColorChange:active {
   background-color: var(--Hover-Color);
 }
 html {
@@ -24,13 +24,21 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
-  width: 100%;
   background-color: var(--Background-White);
+}
+div {
+  margin: 0;
+  padding: 0;
 }
 .height {
   height: 50%;
 }
-
+.DisplayOnTop {
+  z-index: 1;
+}
+.DisplayBehind {
+  z-index: -1;
+}
 img {
   float: left;
   height: auto;
@@ -202,7 +210,7 @@ li a {
 .Grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 5%;
+  padding: 2.5%;
 }
 /* Font Styling  */
 .Bold2 {
@@ -236,6 +244,15 @@ p {
 }
 
 /* Media Query  */
+@media only screen and (max-width: 1250px) {
+  .Grid {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 5%;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .RowColumn {
     display: flex;
@@ -249,6 +266,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    min-width: 400px;
   }
   .PartnerImgConditionalSizing {
     width: 100%;
@@ -268,8 +286,8 @@ p {
     padding-bottom: 1.5%;
   }
   .PaddingHorizontal {
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
   }
   .ConditionalPaddingHorizontal {
     padding-left: 5%;
@@ -278,13 +296,12 @@ p {
   .MainSection {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 1250px) {
+  .ConditionalTextLeft {
+    text-align: left;
+  }
   .Grid {
     display: grid;
-    grid-template-columns: auto auto;
-
-    padding: 10px;
+    grid-template-columns: auto;
+    padding: 5%;
   }
 }

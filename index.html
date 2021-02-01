@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./Stylesheet/Style.css" rel="Stylesheet" />
+    <link href="./Stylesheet/HoverableMenuRight.css" rel="Stylesheet" />
+    <link href="./Stylesheet/HoverableMenuBottom.css" rel="Stylesheet" />
     <link href="./css/all.min.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/8efd96b4b3.js"></script>
     <title>Document</title>
   </head>
-  <body>
-    <div class="PaddingHorizontal Sticky Full Background">
-      <ul class="Row ConditionalPaddingHorizontal Full Background BorderBottom">
+  <body class="PaddingHorizontal" onload="myFunction()">
+    <div class="Sticky DisplayOnTop Full Background">
+      <ul class="RowColumn Full Background BorderBottom">
         <li>
           <a href="#" class="FontColor1 Bold2">FANTASMA </a><a>| Collective</a>
         </li>
@@ -28,41 +30,200 @@
         </li>
       </ul>
 
-      <div class="Sticky Full">
-        <ul class="RowColumn Full BorderBottom">
-          <li class="ColorChangeonHover">
-            <a href="#Artists" class="Bold1">Men's</a>
+      <div class="Full">
+        <ul class="RowColumn Full Background BorderBottom ">
+          
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <div class="dropdown-content">
+              <div class="Row SpacedBetween">
+                  <ul class="Column">
+                    <li><a href="#">New in</a></li>
+                    <li><a href="#">Coats & Jackets</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Nightwear & Loungewear</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Knitwear</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  </div>
+              </div>
           </li>
-          <li class="ColorChangeonHover">
-            <a href="#Partners" class="Bold1">Women's</a>
+        
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <ul class="dropdown-content Column">
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Hot in</a></li>
+            </ul>
           </li>
-          <li class="ColorChangeonHover">
+
+          <li class="PaddingHorizontal ColorChangeonHover">
             <a href="#About" class="Bold1">Seasonal Promotions</a>
           </li>
-          <li class="ColorChangeonHover"><a class="Bold1">New Arrivals</a></li>
-          <li class="ColorChangeonHover"><a class="Bold1">Sales</a></li>
-        </ul>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1">New Arrivals</a></li>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1">Sales</a></li>
+      
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
     </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="RowColumn Full">
       <div class="Column PaddingHorizontal OptionBox">
-        <ul class="Column Full BorderBottom">
-          <li class="ColorChangeonHover PaddingVerticalList">
-            <a href="#Artists" class="Bold1">Sign In</a>
+        <ul class="Column FontSize Full BorderBottom">
+          <li class=" DisplayBehind dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Sign In</a>
+              <a href="#">Sign Up</a>
+            </div>
           </li>
           <li class="ColorChangeonHover PaddingVerticalList">
             <a href="#Partners" class="Bold1">New Arrivals</a>
           </li>
-          <li class="ColorChangeonHover PaddingVerticalList">
-            <a href="#About" class="Bold1">Orders</a>
+          <li class="dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Your Orders</a>
+              <a href="#">Order History</a>
+              <a href="#">Cancel an Order</a>
+            </div>
           </li>
           <li class="ColorChangeonHover PaddingVerticalList">
-            <a class="Bold1">Purchase History</a>
+            <a class="Bold1">Options</a>
           </li>
           <li class="ColorChangeonHover"><a class="Bold2">Settings</a></li>
         </ul>
 
-        <ul class="Column FontSizeColumn Full BorderBottom">
+        <ul class="Column FontSize Full BorderBottom">
           <li class=""><a class="Bold2">Filter</a></li>
           <li class="ColorChangeonHover PaddingVerticalList">
             <a href="#Artists" class="Bold1">Hand Cream</a>
@@ -71,12 +232,19 @@
             <a href="#Partners" class="Bold1">Hair Products</a>
           </li>
           <li class="ColorChangeonHover PaddingVerticalList">
-            <a href="#About" class="Bold1">Health & Beauty</a>
+            <a href="#About" class="Bold1" onclick="myFunction()"
+              >Health & Beauty</a
+            >
           </li>
+          <ul class="ConditionalTextLeft" id="myDIV">
+          <li><a class="Bold1">Makeup</a></li>
+          <li><a class="Bold1">Lip Balm & Gloss</a></li>
+          <li><a class="Bold1">Pamper Packs</a></li>
+          <li><a class="Bold1">Essenial Oils</a></li>
+        </ul>
           <li class="ColorChangeonHover PaddingVerticalList">
             <a class="Bold1">Body Butter</a>
           </li>
-          <li class="ColorChangeonHover"><a class="Bold1">Makeup</a></li>
         </ul>
       </div>
 
@@ -183,8 +351,8 @@
       </div>
     </div>
 
-    <div>
-      <ul class="RowColumn Background2 BorderBottom FontColor2">
+    <div class="Full">
+      <ul class="RowColumn Full Background2 BorderBottom">
         <li>
           <a href="#" class="FontColor2 Bold2">FANTASMA </a
           ><a class="FontColor2">| Collective</a>
@@ -204,4 +372,18 @@
       </ul>
     </div>
   </body>
+
+
+    <script>
+       function myFunction() 
+       {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+</script>
+    </script>
 </html>
