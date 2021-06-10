@@ -1,0 +1,103 @@
+<div class="Full">
+        <ul class="RowColumn Full Background BorderBottom ">
+          
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <div class="dropdown-content">
+              <div class="Row SpacedBetween">
+                  <ul class="Column">
+                    <li><a href="#">New in</a></li>
+                    <li><a href="#">Coats & Jackets</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Nightwear & Loungewear</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Knitwear</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+        
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <ul class="dropdown-content Column">
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Hot in</a></li>
+            </ul>
+          </li>
+
+          <li class="PaddingHorizontal ColorChangeonHover">
+            <a href="#About" class="Bold1">Seasonal Promotions</a>
+          </li>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1">New Arrivals</a></li>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1">Sales</a></li>
+      
+      </div>
+    </div>
+    
+    <div class="RowColumn Full">
+      <div class="Column PaddingHorizontal OptionBox">
+        <ul class="Column FontSize Full BorderBottom">
+          <li class=" DisplayBehind dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Sign In</a>
+              <a href="#">Sign Up</a>
+            </div>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Partners" class="Bold1">New Arrivals</a>
+          </li>
+          <li class="dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Your Orders</a>
+              <a href="#">Order History</a>
+              <a href="#">Cancel an Order</a>
+            </div>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a class="Bold1">Options</a>
+          </li>
+          <li class="ColorChangeonHover"><a class="Bold2">Settings</a></li>
+        </ul>
+
+        <ul class="Column FontSize Full BorderBottom">
+          <li class=""><a class="Bold2">Filter</a></li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Artists" class="Bold1">Hand Cream</a>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Partners" class="Bold1">Hair Products</a>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1" onclick="myFunction()"
+              >Health & Beauty</a
+            >
+          </li>
+          <ul class="ConditionalTextLeft" id="myDIV">
+          <li><a class="Bold1">Makeup</a></li>
+          <li><a class="Bold1">Lip Balm & Gloss</a></li>
+          <li><a class="Bold1">Pamper Packs</a></li>
+          <li><a class="Bold1">Essenial Oils</a></li>
+        </ul>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a class="Bold1">Body Butter</a>
+          </li>
+        </ul>
+      </div>

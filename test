@@ -1,2 +1,260 @@
 
-   
+   <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Stylesheet/Style.css" rel="Stylesheet" />
+    <link href="./Stylesheet/HoverableMenuRight.css" rel="Stylesheet" />
+    <link href="./Stylesheet/HoverableMenuBottom.css" rel="Stylesheet" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/8efd96b4b3.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="PaddingHorizontal" onload="myFunction()">
+      <ul class="Row Full Background  BorderBottom">
+        <li>
+          <a href="#" class="FontColor1 Bold2">FANTASMA </a><a>| Collective</a>
+        </li>
+        <li class="Right ColorChangeonHover">
+          <a class="FontColor1 Bold1" href="#Home">Home</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor1" href="#About">About Us</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor1" href="#Review">Leave a Review</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor1" href="#More">More</a>
+        </li>
+      </ul>
+
+      
+        <ul class="Row FontSize Full BorderBottom">
+          
+          <li class="ColorChangeonHover">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <div class="dropdown-content">
+              <div class="Row SpacedBetween">
+                  <ul class="Column">
+                    <li><a href="#">New in</a></li>
+                    <li><a href="#">Coats & Jackets</a></li>
+                    <li><a href="#">SweatShirts</a></li>
+                    <li><a href="#">Nightwear & Loungewear</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Shirts</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Oils</a></li>
+                    <li><a href="#">Body Lotions</a></li>
+                    <li><a href="#">Body Butters</a></li>
+                    <li><a href="#">Pamper packs</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Boots</a></li>
+                    <li><a href="#">Slippers</a></li>
+                    <li><a href="#">Trainers</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Bangles</a></li>
+                    <li><a href="#">Chains & Pendents</a></li>
+                    <li><a href="#">Earrings & Rings</a></li>
+                    <li><a href="#">Watches</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+        </ul>
+    
+    <div class="RowColumn">
+      <div class="Column OptionBox">
+        <ul class="Column FontSize PaddingHoirzontal Full BorderBottom">
+          <li class="DisplayBehind dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Sign In</a>
+              <a href="#">Sign Up</a>
+            </div>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Partners" class="Bold1">New Arrivals</a>
+          </li>
+          <li class="dropup ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1 dropbtn">Orders</a>
+            <div class="dropup-content">
+              <a href="#">Your Orders</a>
+              <a href="#">Order History</a>
+              <a href="#">Cancel an Order</a>
+            </div>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a class="Bold1">Options</a>
+          </li>
+          <li class="ColorChangeonHover"><a class="Bold2">Settings</a></li>
+        </ul>
+
+        <ul class="Column FontSize Full BorderBottom">
+          <li class=""><a class="Bold2">Filter</a></li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Artists" class="Bold1">Hand Cream</a>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#Partners" class="Bold1">Hair Products</a>
+          </li>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a href="#About" class="Bold1" onclick="myFunction()"
+              >Health & Beauty</a
+            >
+          </li>
+          <ul class="ConditionalTextLeft" id="myDIV">
+          <li><a class="Bold1">Makeup</a></li>
+          <li><a class="Bold1">Lip Balm & Gloss</a></li>
+          <li><a class="Bold1">Pamper Packs</a></li>
+          <li><a class="Bold1">Essenial Oils</a></li>
+        </ul>
+          <li class="ColorChangeonHover PaddingVerticalList">
+            <a class="Bold1">Body Butter</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="MainSection Grid PaddingHorizontal">
+        <ul class="Column">
+          <li>
+            <img src="./Images/Cream2.jpg" width="220" />
+          </li>
+          <li class="Down">Curl Enhanceing Smoothie</li>
+          <li>- Hand Cream</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/DoubleButter Cream.jpg" width="220" />
+          </li>
+          <li class="Down">Double Strength Cream</li>
+          <li>- Body Butter</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/Gorilla Hair Styling.jpg" width="220" />
+          </li>
+          <li class="Down">Slick Gorilla Styling</li>
+          <li>- Hair Product</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li><img src="./Images/Makeup.jpg" width="220" /></li>
+          <li class="Down">Nivea - Pamper Plus</li>
+          <li>- Health & Beauty</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li><img src="./Images/LipBalm.jpg" width="220" /></li>
+          <li class="Down">Lo'real - Pink Gloss</li>
+          <li>- Lip Balm</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li><img src="./Images/Makeup.jpg" width="220" /></li>
+          <li class="Down">Nivea - Pamper Plus</li>
+          <li>- Health & Beauty</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/ChewableHairGrowth.jpg" width="220" />
+          </li>
+          <li class="Down">Chewable - Hair Growth</li>
+          <li>- Hair Product</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/Refresh Set.jpg" width="220" />
+          </li>
+          <li class="Down">Refresh Kit pamper pack</li>
+          <li>- Health & Beauty</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/SheaButter.jpg" width="220" />
+          </li>
+          <li class="Down">Palmers - Shea Butter</li>
+          <li>- Body Butter</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li><img src="./Images/Sponge.jpg" width="220" /></li>
+          <li class="Down">Black Head Remover Sponge</li>
+          <li>Health & Beauty</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img class="" src="./Images/Styling Paste.jpg" />
+          </li>
+          <li class="Down">Lincoln - Super Strength Wax</li>
+          <li>- Hair Product</li>
+          <li>View more</li>
+        </ul>
+
+        <ul class="Column">
+          <li>
+            <img src="./Images/3-1Thickening Treatment.jpg" />
+          </li>
+          <li class="Down">Dax - Manual Hairspray</li>
+          <li>- Hair Product</li>
+          <li>View more</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Full">
+      <ul class="RowColumn Full Background2 BorderBottom">
+        <li>
+          <a href="#" class="FontColor2 Bold2">FANTASMA </a
+          ><a class="FontColor2">| Collective</a>
+        </li>
+        <li class="Right ColorChangeonHover">
+          <a class="FontColor2 Bold1" href="#Home">Home</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor2" href="#About">About Us</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor2" href="#Review">Leave a Review</a>
+        </li>
+        <li class="ColorChangeonHover">
+          <a class="Bold1 FontColor2" href="#More">More</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+
+
+    <script>
+       function myFunction() 
+       {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+</script>
+    </script>
+</html>
